@@ -1,0 +1,5 @@
+- 30.8k star,笔记神器，可以放弃onenote、obsidian、notion了！
+-
+- >传送门：https://logseq.com/
+- >开源地址：https://github.com/logseq/logseq
+-
