@@ -14,7 +14,9 @@ public-apis项目是由apilayer汇集整理的一个公共api集合，现在gith
 
 ## public-apis特点
 
-
+- 免费、开源，可直接使用，部分还可以在web端调试
+- 包含种类丰富，包括不限于动物、动漫、音乐、书籍、认证、区块链等
+- 可以发布自己的api到市场中
 
 
 ## public-apis热门api
