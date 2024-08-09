@@ -88,7 +88,7 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 [1.Kubernetes 架构解释](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247492422&idx=1&sn=8ab08e5567a649ce5942048a9749160b&chksm=fdb6175acac19e4c5973482203c39f88afb9dd0eb21e3c5f43607c024f6a573d1cb80ba2f52f&token=316445105&lang=zh_CN#rd)
 
-[2.Kubernetes 高可用性解释]()
+[2.Kubernetes 高可用性解释](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247492780&idx=2&sn=35777ee2fc97a42a68bb452a9c1d075e&chksm=fdb610b0cac199a69bb076518f5bb8b46ed85a2a3b680d5e291c994c73ce708a3b1e313577d9&token=1005856225&lang=zh_CN#rd)
 
 [3.Kubernetes 设计注意事项]()
 
