@@ -98,7 +98,7 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 我强烈建议大家使用以下教程设置自托管集群。它将为 Kubernetes 组件如何与集群中涉及的关键配置进行交互打下坚实的基础。
 
-[4.]()Kubernetes Minikube 教程
+[4.Kubernetes Minikube 教程](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247492921&idx=2&sn=48a151e5b50fdaa6a0143c8602aab531&chksm=fdb61125cac19833bed2cf5a8a80a9f4a8ea3dd18da83ddb41e758b0dc73c1deead5fe0ff554&token=582551660&lang=zh_CN#rd)
 
 [5.]()使用 Kubeadm 设置 Kubernetes 集群：使用 Kubeadm 设置自托管 Kubernetes 的端到端指南。
 
