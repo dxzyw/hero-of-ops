@@ -102,7 +102,9 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 [5.使用 Kubeadm 设置 Kubernetes 集群](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493046&idx=2&sn=152d327f15e6c1b4721c9b324455669f&chksm=fdb611aacac198bcffdb86d1099433031bbfeddcc4e6007fdee8183aee9664e0bfdbb954edf6&token=582551660&lang=zh_CN#rd)
 
-[6.Kubeconfig 文件解释]()
+[6.Kubeconfig 文件解释](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493100&idx=1&sn=8e8ebd8f0da6176dc7bde8d1dbd15698&chksm=fdb611f0cac198e641abb12ee00868ba8272558f5e8eb8d4387458df9dac9972e9d00f7283c4&token=1304546276&lang=zh_CN#rd)
+
+[7.kubernetes集群配置文件](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493140&idx=2&sn=38def000e622e5d9a9f4018bc882abe7&chksm=fdb61208cac19b1e701bc9aa144e4d02abfcd76d1b931f2dcf3ade30cdd029ca6db1c2fbe2b0&token=1304546276&lang=zh_CN#rd)
 
 了解重要的 Kubernetes 集群配置：有关所有关键 Kubernetes 集群配置的完整指南。
 
@@ -116,13 +118,13 @@ Google Cloud 上的 GKE 集群设置 – 详细指南
 
 使用 Kubernetes 集群时，kubectl 是与集互的重要命令。在本节中，我们将查看有效使用 kubectl 的教程。
 
-[13.kubectl 设置上下文指南]()
+[8.kubectl 设置上下文指南]()
 
 ### Kubernetes 备份和恢复教程
 
 在本节中，我们将学习使用 Kubernetes 原生工具和其他开源和 cncf 相关工具进行 Kubernetes 备份和恢复。
 
-[14.Etcd 备份和恢复：关于备份 etcd 和从备份中恢复它的详细指南。]()
+[8.Etcd 备份和恢复：关于备份 etcd 和从备份中恢复它的详细指南。]()
 
 ### Kubernetes 原生资源教程
 
