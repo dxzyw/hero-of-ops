@@ -106,6 +106,8 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 [7.kubernetes集群配置文件](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493140&idx=2&sn=38def000e622e5d9a9f4018bc882abe7&chksm=fdb61208cac19b1e701bc9aa144e4d02abfcd76d1b931f2dcf3ade30cdd029ca6db1c2fbe2b0&token=1304546276&lang=zh_CN#rd)
 
+[8.如何在 Vagrant VM 上启动 Kubernetes 集群](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493440&idx=2&sn=c4bb6c5eb0b355d058bdb8678090ba24&chksm=fdb6135ccac19a4a1fc5b09471a7cdd5a3b7b70376d9df6a938f96acf2b3b1b4640aec515c8d&token=1304546276&lang=zh_CN#rd)
+
 了解重要的 Kubernetes 集群配置：有关所有关键 Kubernetes 集群配置的完整指南。
 
 在 Vagrant 上设置自动化 Kubeadm 集群：使用 Vagrant 的基于 kubeadm 的全自动集群设置。
@@ -118,13 +120,13 @@ Google Cloud 上的 GKE 集群设置 – 详细指南
 
 使用 Kubernetes 集群时，kubectl 是与集互的重要命令。在本节中，我们将查看有效使用 kubectl 的教程。
 
-[8.kubectl 设置上下文指南]()
+[9.kubectl 设置上下文指南]()
 
 ### Kubernetes 备份和恢复教程
 
 在本节中，我们将学习使用 Kubernetes 原生工具和其他开源和 cncf 相关工具进行 Kubernetes 备份和恢复。
 
-[8.Etcd 备份和恢复：关于备份 etcd 和从备份中恢复它的详细指南。]()
+[10.Etcd 备份和恢复：关于备份 etcd 和从备份中恢复它的详细指南。]()
 
 ### Kubernetes 原生资源教程
 
