@@ -126,15 +126,15 @@ Google Cloud 上的 GKE 集群设置 – 详细指南
 
 在本节中，我们将学习使用 Kubernetes 原生工具和其他开源和 cncf 相关工具进行 Kubernetes 备份和恢复。
 
-[10.Etcd 备份和恢复：关于备份 etcd 和从备份中恢复它的详细指南。]()
+[10.Etcd 备份和恢复：关于备份 etcd 和从备份中恢复它的详细指南](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493542&idx=2&sn=f050a3c152d18cd84fba52143aa2cc24&chksm=fdb613bacac19aacb30f673c192ee4b1456df45ef49550f3fcfd1956bcaaf76177fd8c78e1f9&token=1403121859&lang=zh_CN#rd)
 
 ### Kubernetes 原生资源教程
 
 本节介绍有关 Kubernetes 原生资源的教程，如部署、Pod、Statefulset、RBAC、作业、入口等。
 
-Kubernetes Pod 解释：通过实际示例解释基本对象 pod。
+[11.Kubernetes Pod 解释：通过实际示例解释基本对象 pod](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493521&idx=2&sn=72b2fd0f266a739dc30b62d95aacf55d&chksm=fdb6138dcac19a9bb9b5db8f8c45e595f8675efdde3c7588d8d1dbaf0bf7f46e5942783422f3&token=1403121859&lang=zh_CN#rd)
 
-Pod 生命周期解释：有关 Pod 生命周期阶段的详细指南。
+[12.Pod 生命周期解释：有关 Pod 生命周期阶段的详细指南](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493541&idx=2&sn=e75a6789bda824f957d1a3c7f01e642c&chksm=fdb613b9cac19aafb3501c226367b4869bdd6a865e831e335fee386c705502559a05c956be08&token=1403121859&lang=zh_CN#rd)
 
 了解 init 容器：深入了解 init contianers。
 
