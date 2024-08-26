@@ -120,7 +120,7 @@ Google Cloud 上的 GKE 集群设置 – 详细指南
 
 使用 Kubernetes 集群时，kubectl 是与集互的重要命令。在本节中，我们将查看有效使用 kubectl 的教程。
 
-[9.kubectl 设置上下文指南]()
+[9.kubectl 设置上下文指南](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493474&idx=2&sn=201ccc90667df96a64446f9538320c73&chksm=fdb6137ecac19a686ecf9cd6006c09a84baa746e7acfc492e6416135877e10ac027594f6672f&token=1403121859&lang=zh_CN#rd)
 
 ### Kubernetes 备份和恢复教程
 
