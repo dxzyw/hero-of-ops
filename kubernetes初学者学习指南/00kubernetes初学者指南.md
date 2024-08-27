@@ -108,14 +108,6 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 [8.如何在 Vagrant VM 上启动 Kubernetes 集群](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493440&idx=2&sn=c4bb6c5eb0b355d058bdb8678090ba24&chksm=fdb6135ccac19a4a1fc5b09471a7cdd5a3b7b70376d9df6a938f96acf2b3b1b4640aec515c8d&token=1304546276&lang=zh_CN#rd)
 
-了解重要的 Kubernetes 集群配置：有关所有关键 Kubernetes 集群配置的完整指南。
-
-在 Vagrant 上设置自动化 Kubeadm 集群：使用 Vagrant 的基于 kubeadm 的全自动集群设置。
-
-Google Cloud 上的 GKE 集群设置 – 详细指南
-
-使用 eksctl 的 EKS 集群设置：只需几步即可创建 EKS 集群的指南。
-
 ### Kubectl 教程
 
 使用 Kubernetes 集群时，kubectl 是与集互的重要命令。在本节中，我们将查看有效使用 kubectl 的教程。
@@ -136,9 +128,9 @@ Google Cloud 上的 GKE 集群设置 – 详细指南
 
 [12.Pod 生命周期解释：有关 Pod 生命周期阶段的详细指南](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493541&idx=2&sn=e75a6789bda824f957d1a3c7f01e642c&chksm=fdb613b9cac19aafb3501c226367b4869bdd6a865e831e335fee386c705502559a05c956be08&token=1403121859&lang=zh_CN#rd)
 
-了解 init 容器：深入了解 init contianers。
+[13.了解 init 容器：深入了解 init contianers](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493583&idx=2&sn=6814077c1360acc501a2b3a342f51cae&chksm=fdb613d3cac19ac504e4d8aad2bfc1f7e6b5dcdd616486ee3ddb5d9e8140c948e9e4426338de&token=1846056608&lang=zh_CN#rd)
 
-Kubernetes 初学者部署教程
+[14.Kubernetes 初学者Deployment教程]()
 
 Kubernetes Daemonset 解释
 
