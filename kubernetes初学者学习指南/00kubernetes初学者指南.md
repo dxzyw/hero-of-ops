@@ -130,9 +130,9 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 [13.了解 init 容器：深入了解 init contianers](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493583&idx=2&sn=6814077c1360acc501a2b3a342f51cae&chksm=fdb613d3cac19ac504e4d8aad2bfc1f7e6b5dcdd616486ee3ddb5d9e8140c948e9e4426338de&token=1846056608&lang=zh_CN#rd)
 
-[14.Kubernetes 初学者Deployment教程]()
+[14.Kubernetes 初学者Deployment教程](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493657&idx=2&sn=2d9e86b7fb935882257c45c4f3a8c040&chksm=fdb61c05cac195136d15893cb86c9a4089ff6c38009b264a58c9d02285450e653fc599aea774&token=1846056608&lang=zh_CN#rd)
 
-Kubernetes Daemonset 解释
+[15.Kubernetes Daemonset 解释]()
 
 如何为服务帐户创建 Kubernetes 角色
 
