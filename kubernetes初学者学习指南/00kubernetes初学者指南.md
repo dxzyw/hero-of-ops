@@ -132,15 +132,15 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 [14.Kubernetes 初学者Deployment教程](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493657&idx=2&sn=2d9e86b7fb935882257c45c4f3a8c040&chksm=fdb61c05cac195136d15893cb86c9a4089ff6c38009b264a58c9d02285450e653fc599aea774&token=1846056608&lang=zh_CN#rd)
 
-[15.Kubernetes Daemonset 解释]()
+[15.Kubernetes Daemonset 解释](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493697&idx=2&sn=871cd0bc82ac7bd1a276b737ab1757d0&chksm=fdb61c5dcac1954b18a29ed6bd9927b6016cbc478a56a8039a0f0319c16d755798bda1648bcc&token=1830017738&lang=zh_CN#rd)
 
-如何为服务帐户创建 Kubernetes 角色
+[16.如何为服务帐户创建 Kubernetes 角色](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493729&idx=2&sn=e0b87320b8bac286886b01a9a133c1fc&chksm=fdb61c7dcac1956b7c2482e87ed68c8d564ceb1d176a9ce227ae8593371fc08e9cd49676c10a&token=1830017738&lang=zh_CN#rd)
 
-如何创建用于 API 访问的 Kubernetes 服务帐户
+[17.如何创建用于 API 访问的 Kubernetes 服务帐户]()
 
-面向初学者的 Kubernetes Ingress 教程
+[18.面向初学者的 Kubernetes Ingress 教程](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493850&idx=2&sn=81d534a1ca4a121a7e367797436daf52&chksm=fdb61cc6cac195d087ccf2607b13de869364df2308fc62f49a60235caf712127d3646719f187&token=1830017738&lang=zh_CN#rd)
 
-如何使用 Nginx 控制器在 Kubernetes 上设置 Ingress
+[19.如何使用 Nginx 控制器在 Kubernetes 上设置 Ingress](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493851&idx=2&sn=4891520a0b82420a2d64f1fff07fd208&chksm=fdb61cc7cac195d1d4d0a63adfbe5310f86e09322639fc213a9da9779db93ee5af21b08b0000&token=1830017738&lang=zh_CN#rd)
 
 如何为 Kubernetes Ingress 配置 SSL/TLS
 
