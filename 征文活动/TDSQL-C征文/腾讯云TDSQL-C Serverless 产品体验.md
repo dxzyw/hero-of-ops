@@ -2,19 +2,6 @@
 
 【AI驱动TDSQL-C Serverless数据库技术实战营】结合AI进行电商数据分析
 
-```
-博文要求：
-a.基于 TDSQL-C Mysql Serverless 结合AI进行应用构建
-b.标题格式： 腾讯云TDSQL-C Serverless 产品体验-XXX
-c.投稿内容不少于2000字（不包含代码片段），语言通顺，无错别字，文章逻辑清晰，排版整洁，符合征稿主题，符合法律法规和CSDN的内容发布规范
-
-视频要求：
-a.以视频形式上传腾讯视频号，视频内容须包含开发过程以及应用介绍
-b.时长需要在3 min以上
-c.带上话题 #腾讯云TDSQL-C Serverless 
-
-```
-
 在去年TDSQL-C serverless，其实已经有写过文章介绍过，并且做过相关压测及实验，今天这篇文章主要是结合目前大火的AI大模型相关，继续去对该产品实验。
 
 在正式的实验开始之前，我们先按照惯例来介绍下文中涉及到的一些产品。
@@ -66,7 +53,157 @@ TDSQL-C 是腾讯云自研的新一代云原生关系型数据库，主要基于
 
 
 ## 实验内容介绍
+本次实验是基于python与Langchain，来完成对电商数据的分析
+### 具体实验步骤
 
+- 1.购买TDSQL-C Mysql Serverless
+- 2.部署HAI llama 大模型
+- 3.python环境及开发环境配置
+- 4.验证结果
+  
+### 1.购买TDSQL-C Mysql Serverless
+
+访问如下链接，进入数据库页面,点击立即选购
+>https://cloud.tencent.com/product/tdsqlc 
+
+![](image-3.png) 
+
+根据图表选择选定服务器
+选定的服务器为 serverless 的服务器，具体配置如下：
+
+![](image-4.png)
+
+设置账户信息，配置密码，选择字符集等，如下图：
+
+![](image-5.png)
+
+![](image-6.png)
+
+然后前往管理页面，配置开启公网访问，通过在线管理工具，创建数据库，并完成数据初始化
+
+![](image-7.png)
+
+如下登录管理工具
+
+![](image-8.png)
+
+下面为新建库，并且初始化表
+
+![](image-9.png)
+
+```
+```
+
+导入数据完成
+
+![](image-10.png)
+
+如上完成了数据库导入
+
+### 2.部署HAI llama 大模
+
+访问如下地址：
+
+>官网地址：https://cloud.tencent.com/product/hai
+
+页面如下：
+
+![](image-11.png)
+
+点击立即使用后，新建服务器
+![](image-12.png)
+
+如下选择立即购买即可
+
+![](image-13.png)
+
+如下可以查看HAI算力服务器的llama对外端口
+
+![](image-15.png)
+
+检查是否已经默认开放 6399端口，如下状态即是开放
+
+![](image-14.png)
+
+llama 大模型服务准备完毕！
+
+### 3.python环境及开发环境配置
+
+具体不在详细介绍，推荐版本3.10.11
+
+python就绪后，需要安装对应模块，如下
+
+```
+pip install openai 
+pip install langchain 
+pip install langchain-core 
+pip install langchain-community 
+pip install mysql-connector-python 
+pip install streamlit 
+pip install plotly 
+pip install numpy
+pip install pandas
+pip install watchdog
+pip install matplotlib
+pip install kaleido
+```
+
+### 4.应用搭建并验证
+
+
+新建名为 shop 文件夹进行保存项目代码
+在项目文件夹（shop）中新建配置文件 config.yaml
+在项目文件夹（shop）中新建应用主文件 text2sql2plotly.py
+
+![](image-16.png)
+
+根据实际配置修改config.yaml的配置
+
+这里主要分为 database 配置 和 hai 的配置
+
+- database 的配置详解：
+db_user: 数据库账号，默认为 root
+db_password: 创建数据库时的密码
+db_host: 数据库连接地址
+db_port: 数据库公网端口
+db_name 创建的数据库名称，如果按手册来默认是 shop
+- hai 配置详解：
+model 使用的大模型
+base_url 模型暴露的 api 地址，是公网 ip 和端口的组合，默认 llama端口是6399
+database 中填入 TDSQL-C 的相关配置，db_host、db_port可以在集群列表中找到
+
+hai base_url将实例的ip进行替换，ip可以在HAI的控制台-> 算力管理中找到
+
+配置完成后，copy如下代码
+
+```
+
+```
+
+然后运行并测试效果，在终端执行如下代码
+
+```
+streamlit run text2sql2plotly.py
+```
+
+![](image-17.png)
+
+访问本地的8501端口，可以看到已经可以正常访问了
+
+![](image-18.png)
+
+比如把你可以去**查询一下每类商品的名称和对应的销售总额**
+
+### 相关资源释放
+
+删除TDSQL-C Serverless
+点击退还实例，退还后实例会在回收站中点击回收站即可看到已被退还的实例，为了数据安全，实例默认会在回收站中保留3天，如不需要可以进行立即释放
+
+![](image-20.png)
+
+删除 HAI 算力
+
+![](image-19.png)
 
 ## 总结
 
@@ -74,4 +211,22 @@ TDSQL-C 是腾讯云自研的新一代云原生关系型数据库，主要基于
 
 通过创建和配置 TDSQL-C Serverless 数据库实例，收集和清洗电商数据，并在 HAI 上训练和部署 AI 模型，能够实现高效的数据处理和分析。
 
-最终，通过可视化工具展示分析结果，并生成数据分析报告，为业务决策提供有力支持。该实验不仅展示了云原生数据库和 AI 技术的结合应用，还为企业在电商领域的数据分析提供了实用的解决方案。
+在本次实验中，我们成功地利用了腾讯云的 TDSQL-C MySQL Serverless 和高性能应用服务 HAI，构建了一个高效、可扩展的 AI 电商数据分析系统。以下是实验的关键成果和学习点：
+
+### 关键成果和学习点
+
+1. **云原生数据库的优势**：
+   - 通过使用 TDSQL-C MySQL Serverless，我们体验了云原生数据库在处理大规模数据时的弹性和高性能。这种弹性和高性能对于电商数据分析尤为重要，能够有效应对数据量的快速增长和变化。
+
+2. **GPU 加速的 AI 模型**：
+   - HAI 提供的 GPU 加速能力显著提升了 AI 模型的训练和推理速度，使得系统能够快速响应市场变化和用户需求。这种加速能力不仅提高了效率，还增强了系统的实时分析能力。
+
+3. **实战演练的价值**：
+   - 通过具体的案例研究，开发者不仅理解了理论知识，还通过实际操作加深了对系统功能的认识。这种实战演练帮助开发者更好地掌握了技术应用，并提升了他们解决实际问题的能力。
+
+4. **持续学习与改进**：
+   - 实验的总结也指出了系统可能存在的局限性和改进空间，鼓励开发者持续学习最新的技术和方法，以不断优化和升级系统。这种持续改进的理念对于保持系统的先进性和竞争力至关重要。
+
+通过本次实验，我们不仅验证了技术方案的可行性，还为未来的优化和扩展提供了宝贵的经验和思路。希望开发者们能够继续探索和创新，推动 AI 电商数据分析系统的发展。
+
+通过可视化工具展示分析结果，并生成数据分析报告，为业务决策提供有力支持。该实验不仅展示了云原生数据库和 AI 技术的结合应用，还为企业在电商领域的数据分析提供了实用的解决方案。

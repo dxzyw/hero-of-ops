@@ -136,7 +136,7 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 [16.如何为服务帐户创建 Kubernetes 角色](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493729&idx=2&sn=e0b87320b8bac286886b01a9a133c1fc&chksm=fdb61c7dcac1956b7c2482e87ed68c8d564ceb1d176a9ce227ae8593371fc08e9cd49676c10a&token=1830017738&lang=zh_CN#rd)
 
-[17.如何创建用于 API 访问的 Kubernetes 服务帐户]()
+[17.如何创建用于 API 访问的 Kubernetes 服务帐户](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493988&idx=2&sn=6208dd5b9aac2f6dd1d5bb6e955fa898&chksm=fdb61d78cac1946e16c67fb66d7fb07c41fead739c77c55f67494f7c16b1d1b878e9c358ac6c&token=1600392871&lang=zh_CN#rd)
 
 [18.面向初学者的 Kubernetes Ingress 教程](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493850&idx=2&sn=81d534a1ca4a121a7e367797436daf52&chksm=fdb61cc6cac195d087ccf2607b13de869364df2308fc62f49a60235caf712127d3646719f187&token=1830017738&lang=zh_CN#rd)
 
@@ -146,20 +146,20 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 [21.如何创建 Kubernetes 作业/cron 作业](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493924&idx=2&sn=6ee7888815158f307aa1a6a03ee5e872&chksm=fdb61d38cac1942ebd40a707c9dd497335c7ceb5847fc57c35f4c96b259d570bf4d077b06346&token=2055857181&lang=zh_CN#rd)
 
-[22.Kubernetes Pod PriorityClass 和 Preemption 解释]()
+[22.Kubernetes Pod PriorityClass 和 Preemption 解释](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247493951&idx=2&sn=8eb0d65c268c362f600260fed9d23701&chksm=fdb61d23cac194351f7b431bd05c54c68629acd31362f4f0ef6a8babb7033c92c05092b38544&token=1600392871&lang=zh_CN#rd)
 
 ### Kubernetes 生产力指南
 
-创建 Kubernetes YAML 的简单方法
-最佳 Kubernetes 仪表板应用程序 – Kubernetes Lens [视频教程]
+[23.创建 Kubernetes YAML 的简单方法](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494035&idx=2&sn=088568a28d7caa1dc06d2e012d70a755&chksm=fdb61d8fcac194995289a47f03670cfc084b17bfb5f199aecf5676ba1e98ea3b2517a9d8547d&token=1600392871&lang=zh_CN#rd)
+
 
 ### Kubernetes 监控教程
 
 本节重点介绍如何使用 Prometheus、Grafana、Alert Manager 等工具进行 Kubernetes 监控和日志记录。我们还将介绍与特定云提供商相关的日志记录和监控指南。
 
-如何在 Kubernetes 集群上设置 Prometheus 监控
+[24.如何在 Kubernetes 集群上设置 Prometheus 监控](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494086&idx=2&sn=a94b6aeafdd3fa019a76ff2952ff9408&chksm=fdb61ddacac194ccb781f402580a92bd41f776637f0156473634320a49a25d5f4296a45f1fe1&token=1600392871&lang=zh_CN#rd)
 
-在 Kubernetes 上设置 Prometheus Node Exporter
+[25.在 Kubernetes 上设置 Prometheus Node Exporter](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494112&idx=2&sn=f0fbde5c26803f824a7066256db6dd67&chksm=fdb61dfccac194eaf1e37eb7f77d943eab2c800a785872a99ff49a1a0cced4f788175032ac1d&token=1600392871&lang=zh_CN#rd)
 
 在 Kubernetes 上设置 Kube 状态指标
 
