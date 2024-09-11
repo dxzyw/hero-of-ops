@@ -161,9 +161,9 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 [25.在 Kubernetes 上设置 Prometheus Node Exporter](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494112&idx=2&sn=f0fbde5c26803f824a7066256db6dd67&chksm=fdb61dfccac194eaf1e37eb7f77d943eab2c800a785872a99ff49a1a0cced4f788175032ac1d&token=1600392871&lang=zh_CN#rd)
 
-在 Kubernetes 上设置 Kube 状态指标
+[26.在 Kubernetes 上设置 Kube 状态指标](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494132&idx=2&sn=42b6a2d07617192c595b28be6539c3ca&chksm=fdb61de8cac194fe5a6075c7cb2f873b5c333c69e6be51310094b19045b01ac648710207f34d&token=1600392871&lang=zh_CN#rd)
 
-在 Kubernetes 上设置警报管理器
+[27.在 Kubernetes 上设置警报管理器](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494165&idx=2&sn=115d7541fb471a6ba25e1caf7d414ea1&chksm=fdb61e09cac1971f41c4ff35687e092da94427f3695ec798dffc37f975d61105f5780d49e661&token=1600392871&lang=zh_CN#rd)
 
 在 Kubernetes 上设置 grafana
 
@@ -171,7 +171,7 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 本部分介绍有关 Kubernetes 日志记录的端到端初学者教程列表。
 
-Kubernetes 日志为初学者解释：本教程详细介绍了 Kubernetes 日志的底层概念和模式。
+[29.Kubernetes 日志为初学者解释](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494199&idx=2&sn=482fc38e7180cf528087b3867c4db802&chksm=fdb61e2bcac1973d7a864ee43d4e5676a79a9f1b4ebcba0e1e9febe97eaa55f81c4f3f50473b&token=1600392871&lang=zh_CN#rd)：本教程详细介绍了 Kubernetes 日志的底层概念和模式。
 
 Kubernetes 上的 EFK 设置：解释 Kubernetes 上的 EFK 日志记录堆栈的分步指南。
 
