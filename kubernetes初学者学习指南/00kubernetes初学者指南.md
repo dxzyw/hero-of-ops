@@ -165,7 +165,7 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 [27.在 Kubernetes 上设置警报管理器](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494165&idx=2&sn=115d7541fb471a6ba25e1caf7d414ea1&chksm=fdb61e09cac1971f41c4ff35687e092da94427f3695ec798dffc37f975d61105f5780d49e661&token=1600392871&lang=zh_CN#rd)
 
-在 Kubernetes 上设置 grafana
+[28在 Kubernetes 上设置 grafana](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494234&idx=2&sn=1bae28a3de7e8f784d6302f1b9705a9f&chksm=fdb61e46cac19750fba5af344f870776d5b0d0efa839d02fd686fe01e4d14487205f271b116d&token=1094165661&lang=zh_CN#rd)
 
 ### Kubernetes 日志指南
 
@@ -173,49 +173,49 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 [29.Kubernetes 日志为初学者解释](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494199&idx=2&sn=482fc38e7180cf528087b3867c4db802&chksm=fdb61e2bcac1973d7a864ee43d4e5676a79a9f1b4ebcba0e1e9febe97eaa55f81c4f3f50473b&token=1600392871&lang=zh_CN#rd)：本教程详细介绍了 Kubernetes 日志的底层概念和模式。
 
-Kubernetes 上的 EFK 设置：解释 Kubernetes 上的 EFK 日志记录堆栈的分步指南。
+[30.Kubernetes 上的 EFK 设置：解释 Kubernetes 上的 EFK 日志记录堆栈的分步指南。](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494362&idx=2&sn=3e1e03da8e4ae241a75cd7542b46ff83&chksm=fdb61ec6cac197d01e4dfc57c517b2f66b2a0eb60943801f18e682cdecebb870008920839b9b&token=1094165661&lang=zh_CN#rd)
 
-在 Kubernetes 上设置 Grafana Loki
+[31.在 Kubernetes 上设置 Grafana Loki](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494402&idx=2&sn=6dcae74cee1a7d4b31e73eec11b958f9&chksm=fdb61f1ecac1960862e2b7b4b4ac3e0d61f846e59763b57c8be71bd7ab6d759f1968436b1f6a&token=1094165661&lang=zh_CN#rd)
 
 ### Kubernetes 故障排除教程
 
 在本节中，我们将学习对 Kubernetes 对象（Pod、部署、有状态副本集、集群组件等）进行故障排除。
 
-如何对 Kubernetes Pod 进行故障排除
+[32.如何对 Kubernetes Pod 进行故障排除](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494601&idx=2&sn=7943a1b909920bfdac20e1921542eca2&chksm=fdb61fd5cac196c3fa207f2a58649916af8ba2d1ffe0fd7f3e1bc748c86289a9e88175032b86&token=1094165661&lang=zh_CN#rd)
 
 ### Kubernetes 数据库教程
 
 本节旨在介绍如何为 PostgreSQL、MongoDB 等数据库设置 Statefulsets 的教程。我们还将介绍 Kubernetes 数据库运算符，它们提供了额外的功能来管理 Kubernetes 上的数据库。
 
-了解如何部署 PostgreSQL Statefulset 集群
+[33.了解如何部署 PostgreSQL Statefulset 集群](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494602&idx=2&sn=8a3765ee35c792131b2dbd22a02c8248&chksm=fdb61fd6cac196c00dc95c4541d86ea4dc7f2bc39a5c0acd0686f20b71ff5944c3a263ed38f2&token=1094165661&lang=zh_CN#rd)
 
-在 Kubernetes 上部署 MongoDB 
+[34.在 Kubernetes 上部署 MongoDB](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494603&idx=2&sn=b703ac837787c753148877286fc347f5&chksm=fdb61fd7cac196c1da282dc46a3a972821ebeeb3d86a98b0a8b35de47bf71ebca37d52955533&token=1094165661&lang=zh_CN#rd)
 
 ### Kubernetes 包管理教程
 
 在 Kubernetes 包管理下，您将了解 Helm 和 Kustomize 等工具。Helm 是一个模板工具，Kustomize 是一个覆盖引擎。这些是组织用于管理 Kubernetes 部署的标准工具。
 
-如何安装 Helm 进行 Kubernetes 部署
+[35.如何安装 Helm 进行 Kubernetes 部署](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494604&idx=2&sn=1c3be8afddee45cae4952430b56ff601&chksm=fdb61fd0cac196c62d17d2bee7f8025722301e480d3259dab2f5fdd39353faf18084132773a4&token=1094165661&lang=zh_CN#rd)
 
-如何从头开始创建 Helm Chart
+[36.如何从头开始创建 Helm Chart](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494680&idx=2&sn=b90eb0b36364f7b25e79d2cd017845fa&chksm=fdb61804cac1911202ec0b962906340289e95da8d96f0ad13a0ea46ce66ee8c78e16a1f57d9f&token=1094165661&lang=zh_CN#rd)
 
-Kustomize 教程
+[37.Kustomize 教程](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494701&idx=2&sn=9dc9b852339abbc7c5f1c2f87819ef77&chksm=fdb61831cac19127358b351be1bbab86eb4f77cbe483b4edc01ee8a69b3d2b3a8d7240b161ee&token=1094165661&lang=zh_CN#rd)
 
-Kuztomize Configmap 和密码生成器
+[38.Kuztomize Configmap 和密码生成器](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494734&idx=2&sn=db17a96823c8078ee0ff8f7918fffce2&chksm=fdb61852cac1914456c436edee2d62ff7c3ee82e8e1810336ba13b24dc13f90dfd8cc7413509&token=1094165661&lang=zh_CN#rd)
 
 ### Kubernetes CI/CD 教程
 
 在 Kubernetes CI/CD 下，您将学习使用常用的 CI/CD 工具（如 Jenkins）和高级 GitOps Operator（如 ArgoCD、FluxCD 等）。
 
-在 Kubernetes 集群上设置 Jenkins 
+[39.在 Kubernetes 集群上设置 Jenkins](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494779&idx=2&sn=35faea15aaf29448fec78217e8d8a187&chksm=fdb61867cac1917153f9be4cf1353a0563ab0fcdf0459c1f94831999e23e59f680bf5e469089&token=1094165661&lang=zh_CN#rd)
 
-在Kubernetes Pod 上设置 Jenkins 构建代理
+[40.在Kubernetes Pod 上设置 Jenkins 构建代理](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494870&idx=2&sn=45057a7627d3e6e66101d45799f37a29&chksm=fdb618cacac191dcce952a6374ca397cc3d705ffa9ab06d51994a47043c00d9e999b3b4b5c10&token=1094165661&lang=zh_CN#rd)
 
-使用 Kaniko 在 Kubernetes Pod 中构建 Docker 镜像
+[41.使用 Kaniko 在 Kubernetes Pod 中构建 Docker 镜像](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494814&idx=2&sn=6051c0e56c8331a381fa4e318eb75f24&chksm=fdb61882cac1919435f99a44a5a6d110f9ead80f6259f52c7094882448504e052894757e4b5b&token=1094165661&lang=zh_CN#rd)
 
-在 Kubernetes 上设置最新的 Nexus OSS
+[42.在 Kubernetes 上设置最新的 Nexus OSS](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494903&idx=3&sn=c3b52b0d05419d93ea283f8bc4389adf&chksm=fdb618ebcac191fdab6ff68f00808c32148ef23560dcbad239ca4fad273496e6c340c845da27&token=1094165661&lang=zh_CN#rd)
 
-在 Kubernetes 上设置 Argo CD
+[43.在 Kubernetes 上设置 Argo CD](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494952&idx=2&sn=210e5db8021b3c578de7b4930f3fc6d1&chksm=fdb61934cac19022949713892a641c26f79c744b4a79689ee4f135a6bf61334b2150e8c7de9a&token=1094165661&lang=zh_CN#rd)
 
 在 ArgoCD 上设置多个集群
 
