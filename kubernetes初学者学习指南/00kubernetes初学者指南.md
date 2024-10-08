@@ -1,4 +1,4 @@
-Kubernetes 初学者教程：56 个综合指南(持续完善中)
+Kubernetes 初学者教程：47 个综合指南(持续完善中)
 
 本篇文章是一个学习kubernetes的指导性文章，文章中会涉及你学习kubernetes过程中所需要掌握的大部分内容，本文持续更新。
 
@@ -217,35 +217,26 @@ Kubernetes 有助于扩展应用程序、自我修复和滚动更新，使其非
 
 [43.在 Kubernetes 上设置 Argo CD](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494952&idx=2&sn=210e5db8021b3c578de7b4930f3fc6d1&chksm=fdb61934cac19022949713892a641c26f79c744b4a79689ee4f135a6bf61334b2150e8c7de9a&token=1094165661&lang=zh_CN#rd)
 
-在 ArgoCD 上设置多个集群
+[44.在 ArgoCD 上设置多个集群](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247494986&idx=2&sn=aca20f9c6e1bed2b6ef1feae6d12781d&chksm=fdb61956cac19040b76e89ec00fbd640f22724eea056983bf857f8dce9d4cff1339914723c2b&token=1401551862&lang=zh_CN#rd)
 
 ### Kubernetes 密钥管理教程
 
 在本节中，您将学习如何使用推荐的开源密钥管理工具在 Kubernetes 中管理密钥。此外，我们还将介绍可以与 Kubernetes 集成的特定于云的秘密管理解决方案。
 
-在 Kubernetes 中设置 Hashicorp Vault
+[45.在 Kubernetes 中设置 Hashicorp Vault](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247495109&idx=2&sn=cd56635997ff8375619ab9e3ab9b7583&chksm=fdb619d9cac190cf74c9f1b8ccb6e8b0cdcac98000e0b29b80fc80d9d8fe190ad2f2ab9e43f4&token=1401551862&lang=zh_CN#rd)
 
-使用 Vault Agent 向 Pod 注入密钥
-
-在 EKS 上设置外部密钥
 
 ### Kubernetes 安全指南
 
 在本节中，我们将了解 Kubernetes 安全指南。
 
-使用 kube-bench 进行 CIS 基准测试
+[46.使用 kube-bench 进行 CIS 基准测试](https://mp.weixin.qq.com/s?__biz=MzU4MjY3Mzc3OQ==&mid=2247495148&idx=2&sn=82e909a1d1a01444f6a255f1ec7dc6d8&chksm=fdb619f0cac190e6e841291ba8ca9b591655c1ae567d656047125453349f3d2d19e2dfcdc5a0&token=1401551862&lang=zh_CN#rd)
 
 ### Kubernetes 认证指南 （CKA/CKAD/CKS）
 
 如果您希望获得 Kubernetes 认证，以下认证指南将有所帮助。
 
-CKA认证学习指南
-
-CKAD 认证学习指南
-
-CKS 认证学习指南
-
-另外，请查看 kubernetes 认证优惠券页面以获取最新的考试券代码，以节省考试注册费用。
+[47.CKA认证学习指南]()
 
 ### Kubernetes 最新更新
 
