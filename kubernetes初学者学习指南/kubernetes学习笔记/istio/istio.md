@@ -177,3 +177,11 @@ kubectl apply -f /root/istio-1.13.3/samples/bookinfo/networking/virtual-service-
 访问产品页面并以用户 jason 身份登录（密码 jason）
 
 ![](image-5.png)
+
+我们尝试访问一下该服务
+
+```
+kubectl port-forward   --address 0.0.0.0 service/podinfo 1234:9898 
+```
+
+![](image-6.png)
