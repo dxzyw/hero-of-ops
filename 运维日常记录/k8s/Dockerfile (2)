@@ -1,0 +1,29 @@
+FROM harbor-in.lrhealth.com:9002/test/maven:3.6.3-openjdk-8 AS deps
+RUN mkdir /src
+COPY . /src
+WORKDIR /src
+RUN find . -type f -name "pom.xml" -exec sh -c ' \
+    dest_dir="/project/$(dirname "{}" | sed "s|^\./||")"; \
+    mkdir -p "$dest_dir"; \
+    cp "{}" "$dest_dir/" \
+' \;
+
+FROM harbor-in.lrhealth.com:9002/test/maven:3.6.3-openjdk-8 AS build
+WORKDIR /project
+COPY settings.xml /usr/share/maven/conf/settings.xml
+COPY --from=deps /project /project 
+RUN --mount=type=cache,target=/root/.m2/repository \
+    mvn clean install -U
+COPY . /project
+RUN --mount=type=cache,target=/root/.m2/repository \
+    mvn clean package
+
+FROM harbor-in.lrhealth.com:9002/test/openjdk:8-jdk-alpine
+RUN mkdir -p /app/logs
+WORKDIR /app
+ARG JAVA_OPTS
+ARG MODULE_PATH
+ENV JAVA_ARGS=$JAVA_OPTS
+ENV TZ=Asia/Shanghai
+COPY --from=build /project/$MODULE_PATH/target/*.jar /app/app.jar
+ENTRYPOINT ["sh", "-c", "java $JAVA_ARGS -jar /app/app.jar"]
