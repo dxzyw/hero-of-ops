@@ -1,4 +1,3 @@
-
 在介绍flux之前，先来简单介绍下什么是gitops。
 
 在gitops之前经历了手动发布、脚本化部署、以及目前占据主流的CI/CD，而CI/CD的大部分实现方式是利用gitlab、jenkins等完成自动化构建及部署。
