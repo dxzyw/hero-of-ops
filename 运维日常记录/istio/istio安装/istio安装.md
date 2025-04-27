@@ -1,7 +1,7 @@
 
 今天是2025年4月18日，今天开始学习istio相关内容
 
-https://killercoda.com/lorenzo-g/scenario
+
 
 先从安装开始
 
