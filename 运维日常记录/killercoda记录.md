@@ -17,3 +17,6 @@ flux
 
 https://killercoda.com/sidd-harth/course/fluxcd-course
 
+grafana
+
+https://killercoda.com/grafana-labs/course
